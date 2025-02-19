@@ -1,0 +1,133 @@
+
+body{
+  background-color: #FAD162;
+  overflow-x: hidden;
+}
+ul{
+background-color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes parallax-chong-anim {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(500px);
+  }
+}
+
+.chong {
+  width: 206px;
+  height: 300px;
+  background-image: url(../images/chongtop.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -103px;
+  top: 104px;
+  z-index: -10;
+  /* 视差滚动动画 */
+  animation: parallax-chong-anim linear;
+  animation-timeline: scroll();
+}
+.chong2{
+  width: 200px;
+  height: 330px;
+  background-image: url(../images/chong2.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: -100px;
+
+ animation: parallax-chong2-anim linear;
+  animation-timeline: scroll();
+}
+@keyframes parallax-chong2-anim {
+  from {
+    
+    transform: translateY(1500px) translateX(-50px) rotate(-60deg);
+
+  }
+  to {
+    transform: translateY(-50px) rotate(0deg) translateX(50px) ;
+  }
+}
+.main-content{
+  position: relative;
+  top:200px;
+}
+.section1,.section3{
+  width: 700px;
+  height: 700px;
+  margin:0 auto;
+  line-height: 35px;
+}
+
+.section2{
+  width: 70%;
+  height: auto;
+  background-color:#ffffffac;
+  margin:0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.text{
+  width: 70%;
+  margin:0 auto;
+  margin-top: 30px;
+  line-height: 30px;
+  margin-bottom: 150px;
+}
+.blue{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(30, 180, 255);
+  margin-bottom: 20px;
+}
+.title{
+  margin-bottom: 35px  ;
+}
+
+.bookphoto{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.book1{
+  width: 200px;
+  box-shadow: 5px 0px 6px rgba(109, 109, 109, 0.459);
+}
+.book2{
+  width: 400px;
+  box-shadow: 5px 0px 6px rgba(109, 109, 109, 0.459);
+}
+.bookpage{
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+
+}
+
+
+
+.topback{
+  background-image: url(../images/commen/topreback=ture.png);
+}
+.topback:hover{
+  background-image: url(../images/commen/toprebackw.png);
+}
+
+
+.popup{
+  background: #ffffff;
+}

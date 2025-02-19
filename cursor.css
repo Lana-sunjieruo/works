@@ -1,0 +1,23 @@
+/* cursor.css */
+body {
+  cursor: none;
+}
+a {
+  cursor: none; 
+}
+.custom-cursor {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  background-color:#22c8ff;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s ease-out, width 0.2s ease, height 0.2s ease;
+  z-index: 1000;
+}
+
+.custom-cursor.click {
+  width: 50px;
+  height: 50px;
+}

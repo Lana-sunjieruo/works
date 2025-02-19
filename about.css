@@ -1,0 +1,78 @@
+
+.banner{
+  margin-top: 40px;
+}
+
+.banner p{
+font-size: 30px;
+font-weight: 600;
+}
+
+.senction1,.senction3{
+  width: 700px;
+  height: 400px;
+  margin:0 auto;
+  line-height: 35px;
+  
+}
+span{
+color: rgb(41, 201, 255);
+font-size: 30px;
+}
+.me{
+  width: 300px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 100px;
+}
+/*グラフ*/
+.senction2{
+  width: 100%;
+  height: 400px;
+
+}
+.chart-container {
+  position: relative;
+  display: flex;
+  gap: 20px; 
+  align-items: flex-end; 
+  height: 200px; 
+  width: 100%; 
+  margin-top: 500px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.bar {
+  width: 40px; 
+  height: 10px; 
+  background-color:rgb(41, 201, 255);
+  position: absolute;
+  bottom: 0;
+  transition: height 1s ease-out;
+}
+
+.label {
+  width: 70px;
+  margin-top: 210px; 
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top:30px;
+  z-index: 10;
+}
+.blackbox{
+  width: 700px;
+  height: 12px;
+  background-color: black;
+  position: absolute;
+  top: 210px;
+}

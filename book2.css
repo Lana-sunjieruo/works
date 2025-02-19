@@ -1,0 +1,83 @@
+
+body{
+  background-color: #FAD162;
+  overflow-x: hidden;
+}
+ul{
+background-color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.section1,.section3{
+  width: 700px;
+  height: 400px;
+  margin:0 auto;
+  line-height: 35px;
+
+}
+
+.section2{
+  width: 70%;
+  height: auto;
+  background-color:#ffffffac;
+  margin:0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.text{
+  width: 70%;
+  margin:0 auto;
+  margin-top: 30px;
+  line-height: 30px;
+  margin-bottom: 150px;
+}
+.blue{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(30, 180, 255);
+  margin-bottom: 20px;
+}
+.title{
+  margin-bottom: 35px  ;
+}
+
+.bookphoto{
+  display: flex;
+  
+  margin-bottom: 50px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.book1{
+  width: 500px;
+  
+}
+.book2{
+  width: 400px;
+  box-shadow: 5px 0px 6px rgba(109, 109, 109, 0.459);
+}
+.bookpage{
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+
+}
+
+
+.topback{
+  background-image: url(../images/commen/topreback=ture.png);
+}
+.topback:hover{
+  background-image: url(../images/commen/toprebackw.png);
+}
+
+
+.popup{
+  background: #ffffff;
+}
